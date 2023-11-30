@@ -5,7 +5,7 @@ Getting Started
 ---------------
 
 ```bash
-repo init -u https://github.com/DeepMOD/MODA13.git -b 13-YAAP --depth=1 --git-lfs
+repo init -u https://github.com/DeeMod/MODA13.git -b 13-YAAP --depth=1 --git-lfs
 ```
 Then to sync up:
 ```bash
