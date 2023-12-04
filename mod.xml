@@ -91,10 +91,10 @@
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
   </project>
-  <!-- <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_sm8150_audio" remote="yaap" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_sm8150_audio" remote="yaap" />
   <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_sm8150_display" remote="yaap" />
   <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_sm8150_media" remote="yaap" />
-  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="yaap" />
+  <!-- <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="yaap" />
   <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="yaap" />
   <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" remote="yaap" />
   <project path="hardware/qcom-caf/sm8350/audio" name="hardware_qcom-caf_sm8350_audio" remote="yaap" />
@@ -109,9 +109,9 @@
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="yaap" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="yaap" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="yaap" />
-  <!-- <project path="packages/apps/KProfiles" name="packages_apps_KProfiles" remote="yaap" /> -->
+  <project path="packages/apps/KProfiles" name="packages_apps_KProfiles" remote="yaap" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="yaap" />
-  <project path="packages/apps/Matlog" name="packages_apps_Matlog" remote="yaap" />
+  <!-- <project path="packages/apps/Matlog" name="packages_apps_Matlog" remote="yaap" /> -->
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="yaap" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="yaap" />
   <!-- <project path="packages/apps/OpenDelta" name="packages_apps_OpenDelta" remote="yaap" /> -->
@@ -178,15 +178,13 @@
   <project path="vendor/yaap" name="vendor_yaap" remote="yaap" />
 
   <!-- MOD -->
-  <project path="device/xiaomi/raphael" name="SOVIET-ANDROID/device_xiaomi_raphael" remote="github" clone-depth="1"  revision="13.0-DSP" />
+  <!-- <project path="device/xiaomi/raphael" name="SOVIET-ANDROID/device_xiaomi_raphael" remote="github" clone-depth="1"  revision="13.0-DSP" />
   <project path="kernel/xiaomi/raphael" name="SOVIET-ANDROID/kernel_xiaomi_raphael" remote="github" clone-depth="1"  revision="13.0-DSP" />
-  <project path="vendor/xiaomi/raphael" name="SOVIET-ANDROID/vendor_xiaomi_raphael" remote="github" clone-depth="1"  revision="13.0" />
-  <project path="hardware/qcom-caf/sm8150/display" name="SOVIET-ANDROID/platform_hardware_qcom_display" remote="github" clone-depth="1"  revision="13.0-8150" />
-  <project path="hardware/qcom-caf/sm8150/audio" name="SOVIET-ANDROID/platform_hardware_qcom_audio" remote="github" clone-depth="1"  revision="13.0-8150" />
-  <project path="hardware/qcom-caf/sm8150/media" name="SOVIET-ANDROID/platform_hardware_qcom_media" remote="github" clone-depth="1"  revision="13.0-8150" />
-  <project path="vendor/qcom/common" name="vendor_qcom_common" remote="yaosp" revision="thirteen" clone-depth="1" />
-  <project path="device/qcom/common" name="device_qcom_common" remote="yaap" revision="thirteen" clone-depth="1" />
-  <project path="hardware/xiaomi" name="SOVIET-ANDROID/android_hardware_xiaomi" remote="github" clone-depth="1"  revision="13.0" />
+  <project path="vendor/xiaomi/raphael" name="SOVIET-ANDROID/vendor_xiaomi_raphael" remote="github" clone-depth="1"  revision="13.0" /> -->
+  <project path="device/xiaomi/raphael" name="pwnrazr/device_xiaomi_raphael" remote="github" revision="thirteen-dynamic-partitions" clone-depth="1" />
+  <project path="vendor/xiaomi/raphael" name="pwnrazr/vendor_xiaomi_raphael" remote="github" revision="thirteen" clone-depth="1" />
+  <project path="kernel/xiaomi/sm8150" name="pwnrazr/kernel_raphael_sm8150" remote="github" revision="inline-dynamic-partitions" clone-depth="1"/>
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" clone-depth="1"  revision="lineage-20" />
   <project path="prebuilts/clang/host/linux-x86/clang-r498229b" name="ThankYouMario/android_prebuilts_clang-standalone" remote="gitlab" clone-depth="1"  revision="17" />
   <project path="prebuilts/clang/host/linux-x86/clang-trb" name="voltageos/clang" remote="gitlab" clone-depth="1"  revision="test" />
 
